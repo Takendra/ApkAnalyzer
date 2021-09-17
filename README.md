@@ -1,5 +1,6 @@
 # ApkAnalyzer
-ApkAnalyzer picks the apk throught command line or path of the apk can given directly be given to apkPath variable in MainClass.java.
+ApkAnalyzer picks the apk throught command line or path of the apk can be given directly to apkPath variable in MainClass.java.
+the project generates the result.txt file after parsing it and if same apk is given again it finds the difference between the apks and generates the outputCompare.txt file.
 the project uses mysql as database to store the apk details and make the comparision if same apk is again testd on project.
 to rn the project following script for databse can be used to  creare database and required table
 
